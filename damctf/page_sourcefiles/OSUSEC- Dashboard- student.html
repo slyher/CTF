@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://hacker-camp.chals.damctf.xyz/update-student/TmFuY2llX0JyZXR0 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>OSUSEC- Dashboard</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./OSUSEC- Dashboard- student_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<div class="pull-right" style="padding:10px">
+    Logged In As: <strong>rhonda.daniels</strong>
+    <a href="https://hacker-camp.chals.damctf.xyz/logout" style="margin-left:20px" class="btn btn-danger">Logout</a>
+</div>
+<div class="container" style="padding-top:60px">
+    <h1 class="text-center">OSUSEC</h1>
+    <h4 class="text-center">Brett, Nancie</h4>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+            
+                                        
+
+            <div class="panel panel-default" style="margin-top:30px">
+                <div class="panel-heading">Student</div>
+                <div class="panel-body">
+                    <form method="post" id="student-form">
+                        <input type="hidden" name="student_hash" value="706c7742c6afc1423491358896abe90a">
+                        <div style="margin-top:7px;font-size:18px" class="text-center"><label>Grades</label></div>
+                        <div class="row">
+                            <div class="col-xs-4 text-center">English</div>
+                            <div class="col-xs-4 text-center">Science</div>
+                            <div class="col-xs-4 text-center">Maths</div>
+                        </div>
+                        <div class="row" style="margin-top:10px">
+                            <div class="col-xs-4 text-center">
+                                <select name="grade_english" id="english">
+                                    <option value="A" selected="">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                    <option value="F">F</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                <select name="grade_science" id="science">
+                                    <option value="A" selected="">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                    <option value="F">F</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                <select name="grade_maths" id="maths">
+                                    <option value="A" selected="">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                    <option value="F">F</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div style="margin-top:20px">
+                            <input type="button" class="btn btn-success pull-right update-record" value="Update Record">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var staff = {
+        admin   :   false,
+        name    :   'rhonda.daniels'
+    }
+</script>
+<script src="./OSUSEC- Dashboard- student_files/jquery.min.js"></script>
+<script src="./OSUSEC- Dashboard- student_files/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./OSUSEC- Dashboard- student_files/app.min.js"></script>
+
+</body></html>
